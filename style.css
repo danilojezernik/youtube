@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #2a2a2a;
+    color: white;
+    font-family: "Roboto","Ariel", sans-serif;
+    font-size: 1.0rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+#leviMeni {
+    float: left;
+    width: 15%;
+}
+
+.fas {
+    padding: 10px 25px 25px 15px;
+    float: left;
+    text-align: center;
+    vertical-align: center;
+}
+
+#leviMeni .nodecor {
+    background-color: #2a2a2a;
+    height: auto;
+    padding: 0 0 0 15px;
+    justify-self: center;
+}
+
+#leviMeni .nodecor .image-youtube {
+    width:40%;
+    height: auto;
+    padding: 0 0 0 20px;
+    margin: 5px 0 5px 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid slategrey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    width: 100%;
+    height: 40px;
+    background-color: #2a2a2a;
+    color: white;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a > .nodecor {
+    background-color: black;
+}
+
+a:visited {
+    background-color: #383838;
+}
+
+a:hover, a:active {
+    background-color: #383838;
+}
+
+
+#desnaVsebina {
+    float: left;
+    padding-left: 20px;
+    width: 85%;
+}
+
+#vrstica-a {
+    width: 100%;
+}
+
+#vrstica-a .search {
+    width: 65%;
+    text-align: right;
+}
+
+#vrstica-a .icon-right {
+    width: 35%;
+    text-align: right;
+}
