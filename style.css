@@ -16,14 +16,15 @@ body {
 #leviMeni {
     float: left;
     width: 15%;
+    height: auto;
 }
 
 #leviMeni h2 {
-    color: white;
+    color: #818181;
     font-family: "Roboto","Ariel", sans-serif;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     padding-left: 20px;
 }
 
@@ -34,19 +35,10 @@ body {
     vertical-align: center;
 }
 
-#leviMeni .nodecor {
-    background-color: #2a2a2a;
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 15px;
-    justify-self: center;
-}
-
-#leviMeni .nodecor .image-youtube {
+#leviMeni .image-youtube {
     width:40%;
     height: auto;
-    padding: 0 0 0 20px;
-    margin: 5px 0 5px 0;
+    margin: 0 0 0 20px;
 }
 
 .border-bottom {
@@ -68,10 +60,6 @@ a {
     display: inline-block;
 }
 
-a > .nodecor {
-    background-color: black;
-}
-
 a:visited {
     background-color: #383838;
 }
@@ -80,6 +68,23 @@ a:hover, a:active {
     background-color: #383838;
 }
 
+.text-bottom {
+    color: #b7b7b7;
+    font-family: "Roboto","Ariel", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 20px;
+
+}
+
+.text-bottom .text-llc {
+    color: #6c6c6c;
+    font-family: "Roboto","Ariel", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
 
 #desnaVsebina {
     float: left;
