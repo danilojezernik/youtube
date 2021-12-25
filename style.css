@@ -161,16 +161,23 @@ a:hover, a:active {
 }
 
 #link {
-    padding: 10px;
-
+    padding: 10px 0 10px 0;
     float: left;
 }
 
+.space {
+    padding-left: 30px;
+}
+
 #link a {
-    background-color: rgba(31, 31, 31, 0.08);
-    border-radius: 30px;
-    margin: 2px;
-    border: 1px solid #4d4d4d;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    background-color: #4b4b4b;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
     float: left;
 }
 
