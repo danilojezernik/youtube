@@ -15,7 +15,7 @@ body {
 
 #leviMeni {
     float: left;
-    width: 13%;
+    width: 14%;
     height: auto;
 }
 
@@ -89,7 +89,7 @@ a:hover, a:active {
 #desnaVsebina {
     float: left;
     padding-left: 20px;
-    width: 85%;
+    width: 86%;
 }
 
 #vrstica-a {
@@ -171,14 +171,13 @@ a:hover, a:active {
 
 #link a {
     text-align: center;
-    height: 40px;
+    height: 30px;
     width: 100%;
     margin: 0;
-    padding: 0 10px 0 10px;
+    padding: 5px;
     background-color: #4b4b4b;
     border-radius: 25px;
     border: 1px solid #ffffff;
-    float: left;
 }
 
 #link a:hover {
