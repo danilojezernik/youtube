@@ -188,11 +188,11 @@ a:hover, a:active {
 
 #link-bg {
     width: 85%;
-    height: max-content 100%x;
     padding: 20px;
     background-color: black;
     align-content: center;
     float: right;
+
 }
 
 .align {
