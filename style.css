@@ -15,7 +15,7 @@ body {
 
 #leviMeni {
     float: left;
-    width: 15%;
+    width: 13%;
     height: auto;
 }
 
@@ -104,4 +104,77 @@ a:hover, a:active {
 #vrstica-a .icon-right {
     width: 35%;
     text-align: right;
+}
+
+/* iskalnik */
+
+.wrap {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.search {
+    width: 70%;
+    float: left;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.searchTerm {
+    width: 50%;
+    border: 1px solid #4d4d4d;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    outline: none;
+    color: #4d4d4d;
+    background-color: #000;
+}
+
+.searchButton {
+    width: 60px;
+    height: 35px;
+    background: #4d4d4d;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.right-icon {
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.search .fa-thin {
+    background-color: black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#desnaVsebina .wrap .right-icon .fas {
+    padding: 10px;
+    float: right;
+}
+
+#link {
+    padding: 10px;
+
+    float: left;
+}
+
+#link a {
+    background-color: rgba(31, 31, 31, 0.08);
+    border-radius: 30px;
+    margin: 2px;
+    border: 1px solid #4d4d4d;
+    float: left;
+}
+
+#link a:hover {
+    background-color: #6c6c6c;
+    transition: background-color 0.5s cubic-bezier(0.05,0,0,1);
 }
